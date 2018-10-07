@@ -1,0 +1,24 @@
+{
+  "name": "ltldtrial",
+  "version": "1.0.0",
+  "description": "OpenTech && Weather API App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Joao Matias Nequinha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.1",
+    "express": "^4.16.3",
+    "request": "^2.87.0",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}

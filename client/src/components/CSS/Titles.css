@@ -1,0 +1,31 @@
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-family: 'Trocchi', serif;
+  font-size: 45px;
+  position:relative;
+  text-align:center;
+}
+
+h3{
+  margin-left: auto;
+  margin-right: auto;
+  color: #56fff0;
+  font-family: 'Trocchi', serif;
+  font-size: 25px;
+  position:relative;
+  text-align:center;
+}
+
+
+h2 {
+  margin-left: auto;
+  margin-right: auto;
+  color: red;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'Trocchi', serif;
+  font-size: 50px;
+  position:relative;
+  text-align:center;
+}
